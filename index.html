@@ -34,16 +34,18 @@
 
     <h2>@links</h2>
 
-    <a href="/.">Primary links</a>
-    <a href="/..">Secondary links</a>
+    <a class="link link--primary" href="/.">Primary links</a>
+    <a class="link link--secondary" href="/..">Secondary links</a>
 
     <hr>
 
     <h2>@lists</h2>
 
+    <p>we removed bullets from all ul.</p>
+
     <h3>unordered list</h3>
 
-    <ul>
+    <ul class="list__non-bullet">
         <li>Item One</li>
         <li>Item two</li>
         <li>Item three</li>
@@ -51,15 +53,15 @@
 
     <h3>unordered inline list</h3>
 
-    <ul>
-        <li>InLineItem One</li>
-        <li>InLineItem two</li>
-        <li>InLineItem three</li>
+    <ul >
+        <li  class="list__item-inline">InLineItem One</li>
+        <li class="list__item-inline">InLineItem two</li>
+        <li class="list__item-inline">InLineItem three</li>
     </ul>
 
     <h3>reverse ordered list</h3>
 
-    <ol>
+    <ol reversed>
         <li>Milk</li>
         <li>eggs</li>
         <li>bread</li>
@@ -69,17 +71,17 @@
 
     <h2>@nav</h2>
 
-    <nav>
-        <div>iAmBrand</div>
-        <ul>
-            <li>
-                <a href="/">home</a>
+    <nav class="navigation">
+        <div class="navigation__brand">iAmBrand</div>
+        <ul class="list__non-bullet navigation__pills" >
+            <li class="list__item-inline link__active">
+                <a class="link" href="/">home</a>
             </li>
-            <li>
-                <a href="/">product</a>
+            <li class="list__item-inline ">
+                <a class="link" href="/">product</a>
             </li>
-            <li>
-                <a href="/">about</a>
+            <li class="list__item-inline">
+                <a class="link" href="/">about</a>
             </li>
         </ul>
     </nav>
