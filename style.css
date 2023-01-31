@@ -16,10 +16,14 @@ hr{
 
 }
 
+/* spaces */
+
+
+
 /* container */
 
 .container{
-    padding: 0rem 1rem;
+    padding: 2rem 1rem;
 }
 
 .container-center{
@@ -87,7 +91,7 @@ hr{
 
 .hero{
     padding: 2rem;
-    text-align: center;
+    padding-top: 5rem;
 }
 
 .hero-img{
@@ -132,6 +136,11 @@ hr{
 
 .footer .link{
     color: white;
+}
+
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
 }
 
 .footer .ul{
