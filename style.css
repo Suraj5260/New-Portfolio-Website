@@ -16,6 +16,8 @@ hr{
 
 }
 
+
+
 /* spaces */
 
 
@@ -146,4 +148,8 @@ hr{
 
 .footer .ul{
     padding-inline-start: 0px;
+}
+
+.social-links{
+    padding-left: 0%;
 }
