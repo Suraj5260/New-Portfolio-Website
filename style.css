@@ -81,6 +81,7 @@ hr{
 
 .navigation .navigation__pills{
     text-align: right;
+    padding: 0rem;
 }
 
 .navigation .link__active{
