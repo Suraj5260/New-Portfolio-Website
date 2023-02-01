@@ -58,7 +58,7 @@ hr{
 
 .list__item-inline{
     display: inline;
-    padding: 0rem 0.5rem;
+    padding-left:  0.5rem;
 }
 
 /* navigation */
