@@ -65,6 +65,10 @@ hr{
 
 /* navigation */
 
+.logo{
+    max-width: 1.25%;
+}
+
 .navigation{
     background-color: var(--primary-color);
     color: white;
