@@ -58,6 +58,7 @@ hr{
 
 .list__non-bullet{
     list-style: none;
+    padding-left: 0%;
 }
 
 .list__item-inline{
@@ -128,6 +129,7 @@ hr{
 .ow{
     background-color: var(--off-white);
     border-radius: 1rem ;
+    
 }
 
 /* footer */
@@ -156,3 +158,4 @@ hr{
 .social-links{
     padding-left: 0%;
 }
+
